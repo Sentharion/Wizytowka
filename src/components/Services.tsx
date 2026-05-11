@@ -31,7 +31,7 @@ const Services = () => {
                     Skupiam się na <span className="text-white font-medium border-b border-violet-500/30 pb-0.5">wydajności, intuicyjności i dopracowanych detalach</span>, aby każdy projekt realnie wspierał rozwój Twojego biznesu.
                 </p>
 
-                <div className="flex items-center justify-center gap-5 mt-14">
+                <div className="flex items-center flex-col md:flex-row justify-center gap-5 mt-14">
                     {services.map((service) => (
                         <div key={service.title} className="border border-violet-500/30 rounded-xl p-4 bg-violet-400/5 hover:bg-violet-400/10 transition-all duration-300 hover:border-violet-500/60 hover:scale-105">
                             <div className="flex items-center justify-center gap-3">

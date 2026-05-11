@@ -4,11 +4,10 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="relative z-10 w-full py-10 overflow-hidden border-t border-violet-500/10">
+        <footer className="relative z-10 w-full py-10 overflow-hidden border-t border-violet-500/10 bg-[#060613]">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-linear-to-r from-transparent via-violet-500/30 to-transparent"></div>
             
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
-                {/* Logo & About */}
                 <div className="col-span-1 md:col-span-2">
                     <a href="#" className="inline-flex flex-col items-start gap-0 mb-6 group">
                         <p className="text-2xl text-violet-500 m-0 leading-relaxed group-hover:scale-110 transition-transform">&lt;/&gt;</p>
@@ -29,7 +28,6 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* Quick Links */}
                 <div>
                     <h3 className="text-white font-bold text-lg mb-6">Nawigacja</h3>
                     <ul className="space-y-4">
@@ -40,7 +38,6 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Contact Info */}
                 <div>
                     <h3 className="text-white font-bold text-lg mb-6">Kontakt</h3>
                     <ul className="space-y-4">
@@ -56,7 +53,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto px-6 mt-20 pt-8 border-t border-violet-500/30 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div className="max-w-7xl mx-auto px-6 mt-20 pt-8 border-t border-violet-500/30 flex flex-col md:flex-row justify-between items-center gap-6 bg-[#060613]">
                 <p className="text-slate-500 text-sm">
                     © {currentYear} Michał Bertman. Wszystkie prawa zastrzeżone.
                 </p>
@@ -66,7 +63,6 @@ const Footer = () => {
                 </div>
             </div>
             
-            {/* Background Decorations */}
             <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-violet-600/10 blur-[120px] rounded-full pointer-events-none"></div>
             <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-indigo-600/10 blur-[120px] rounded-full pointer-events-none"></div>
         </footer>

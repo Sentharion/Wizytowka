@@ -1,4 +1,5 @@
 import {ArrowDown} from "@/components/Icons";
+import LightPillar from "@/components/LightPillar";
 const technologies = [
     "HTML",
     "CSS",
@@ -20,8 +21,8 @@ const technologies = [
 const Hero = () => {
     return (
         <section className="w-full relative flex items-center justify-center py-40">
+            <LightPillar pillarRotation={90} topColor="#8421e2" bottomColor="#4338ca"/>
             <div className="relative z-10 flex flex-col justify-center items-center px-6 text-white font-roboto text-center">
-                
                 <h1 className="text-4xl md:text-7xl font-bold tracking-tight mb-4 animate-fade-in-up">
                     Michał <span className="text-transparent bg-clip-text bg-linear-to-r from-violet-500 to-indigo-700">Bertman</span>
                 </h1>
@@ -30,10 +31,8 @@ const Hero = () => {
                     Tworzę <span className="text-white font-medium border-b border-violet-500/30 pb-0.5">strony internetowe</span> oraz <span className="text-white font-medium border-b border-violet-500/30 pb-0.5">aplikacje mobilne i webowe</span>, które działają płynnie i responsywnie na <span className="text-white font-medium border-b border-violet-500/30 pb-0.5">wszystkich urządzeniach</span>, unosząc Twoją markę w cyfrowy kosmos.
                 </p>
 
-                <div className="w-1/2 h-px mt-16 bg-linear-to-r from-transparent via-violet-500/50 to-transparent shadow-[0_0_12px_rgba(139,92,246,0.3)] animate-fade-in-up [animation-delay:400ms]"></div>
-
-                <div className="flex flex-col items-center mt-12 animate-fade-in-up [animation-delay:600ms]">
-                    <p className="text-violet-400 text-xs md:text-sm font-semibold tracking-[0.2em] uppercase mb-8 opacity-80 backdrop-blur-sm px-4 py-1.5 rounded-full border border-violet-500/20 bg-violet-500/5">
+                <div className="flex flex-col items-center mt-28 animate-fade-in-up [animation-delay:600ms]">
+                    <p className="text-violet-400 text-xs md:text-sm font-semibold tracking-[0.2em] uppercase mb-8 opacity-80 backdrop-blur-sm px-4 py-1.5 rounded-full border border-violet-500/30 bg-violet-500/15">
                         Moje narzędzia do budowania cyfrowych galaktyk
                     </p>
                     <div className="flex flex-wrap justify-center gap-4">
