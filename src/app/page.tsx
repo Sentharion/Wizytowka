@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
-import Footer from "@/components/Footer";
+import Portfolio from "@/components/Portfolio";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
       <div className="relative z-10">
         <Hero />
         <Services />
-        <Footer />
+        <Portfolio />
+        <Contact />
       </div>
     </main>
   );

@@ -16,8 +16,8 @@ const handleRedirect = (project: Project) => {
 
 const Portfolio = () => {
     return (
-        <section className="w-full relative flex items-center justify-center bg-[#13102E]  py-20">
-            <div className="relative z-10 flex flex-col justify-center items-center px-6 text-white font-roboto text-center max-w-7xl">
+        <section id="portfolio" className="w-full relative flex items-center justify-center bg-transparent py-24 overflow-hidden">
+            <div className="relative z-10 flex flex-col justify-center items-center px-6 text-white font-roboto text-center max-w-7xl w-full">
                 <h1 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4 animate-fade-in-up">
                     Portfolio
                 </h1>

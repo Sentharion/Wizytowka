@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <section className="w-full relative flex items-center justify-center bg-slate-950 py-20">
+        <section className="w-full relative flex items-center justify-center bg-slate-950 py-24 overflow-hidden">
             <div className="relative z-10 flex flex-col justify-center items-center px-6 text-white font-roboto text-center max-w-7xl">
                 <h1 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4 animate-fade-in-up">
                     Kontakt
