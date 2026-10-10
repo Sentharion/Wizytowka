@@ -1,21 +1,40 @@
+import { ArrowRight } from "lucide-react";
+import {FaGithub,FaLinkedin} from "react-icons/fa"
+
 const Contact = () => {
     return (
-        <section className="w-full relative flex items-center justify-center bg-slate-950 py-24 overflow-hidden">
-            <div className="relative z-10 flex flex-col justify-center items-center px-6 text-white font-roboto text-center max-w-7xl">
-                <h1 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4 animate-fade-in-up">
-                    Kontakt
-                </h1>
-
-                <div className="w-35 h-0.5 bg-linear-to-r from-transparent via-violet-500/50 to-transparent shadow-[0_0_12px_rgba(139,92,246,0.3)] animate-fade-in-up [animation-delay:400ms]"></div>
-
-                <p className="text-slate-300 text-lg md:text-xl mt-6 max-w-3xl font-light leading-relaxed tracking-wide animate-fade-in-up [animation-delay:200ms]">
-                    Masz pytania lub jesteś zainteresowany współpracą? Skontaktuj się ze mną!
-                </p>
-                <div className="flex flex-col gap-4 mt-10">
-                    <button type="submit" className="bg-violet-700 text-white rounded-lg px-4 py-3 hover:bg-violet-600 transition-all duration-300 hover:scale-105 cursor-pointer">Napisz do mnie!</button>
-                </div>
-            </div>
-        </section>
+       <section id="contact" className="relative mx-auto max-w-6xl px-6 py-16 lg:px-8 ">
+        <div className="overflow-hidden rounded-3xl border border-violet-500/20 bg-gradient-to-br from-violet-950/80 via-slate-900 to-blue-950/80 px-7 py-16 text-center sm:px-12 sm:py-24">
+          <p className="mb-5 font-mono text-xs uppercase tracking-[0.25em] text-violet-300">
+            Masz jakiś pomysł?
+          </p>
+          <h2 className="mx-auto max-w-3xl text-4xl font-medium tracking-tight text-white sm:text-6xl">
+            Stwórzmy coś razem!
+          </h2>
+          <p className="mx-auto mt-6 max-w-xl text-slate-400">
+            Jestem otwarty na współpracę przy ciekawych projektach. Chętnie poznam Twoje pomysły i pomogę Ci w ich realizacji.
+          </p>
+          <a
+            href="mailto:[EMAIL_ADDRESS]"
+            className="mt-9 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition-transform hover:-translate-y-0.5"
+          >
+            Napisz do mnie <ArrowRight />
+          </a>
+        </div>
+        <footer className="flex flex-col items-center justify-between gap-5 py-8 text-xs text-slate-600 sm:flex-row">
+          <p>© 2025 Michał Bertman. Stworzono z pasją.</p>
+          <div className="flex gap-6">
+            <a href="https://github.com/Sentharion" className="flex items-center gap-2 transition-colors hover:text-white">
+                <FaGithub className="size-4" />
+                Github
+            </a>
+            <a href="https://www.linkedin.com/in/michal-bertman-90a676239/" className="flex items-center gap-2 transition-colors hover:text-white">
+                <FaLinkedin className="size-4" />
+                LinkedIn
+            </a>
+          </div>
+        </footer>
+      </section>
     );
 };
 

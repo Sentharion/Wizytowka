@@ -12,6 +12,8 @@ export const projects = [
         description: "Landing page dla aplikacji mobilnej Posto do śledzenia postu i przerw od jedzenia",
         image: page1,
         link: "#",
+        type: "Landing Page",
+        stack: ["React", "TypeScript", "Tailwind CSS"],
     },
     {
         id: 2,
@@ -19,6 +21,8 @@ export const projects = [
         description: "Nowoczesny sposób na planowanie i śledzenie spacerów",
         image: page2,
         link: "#",
+        type: "Aplikacja Mobilna",
+        stack: ["React-Native", "Tailwind CSS", "Expo"],
     },
     {
         id: 3,
@@ -26,6 +30,8 @@ export const projects = [
         description: "Landing page dla aplikacji mobilnej Six Fit do planowania treningów",
         image: page3,
         link: "#",
+        type: "Landing Page",
+        stack: ["React", "TypeScript", "Tailwind CSS"],
     },
     {
         id: 4,
@@ -33,6 +39,8 @@ export const projects = [
         description: "Landing page dla firmy Osuszacze Gdańsk",
         image: page4,
         link: "#",
+        type: "Landing Page",
+        stack: ["React", "TypeScript", "Tailwind CSS"],
     },
     {
         id: 5,
@@ -40,6 +48,8 @@ export const projects = [
         description: "Platforma do zarządzania projektami",
         image: page5,
         link: "#",
+        type: "Aplikacja Webowa",
+        stack: ["React", "Next.js","TypeScript", "Tailwind CSS", "Supabase"],
     },
     {
         id: 6,
@@ -47,5 +57,7 @@ export const projects = [
         description: "Platforma do zarządzania imprezami",
         image: page6,
         link: "#",
+        type: "Aplikacja Webowa",
+        stack: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Supabase"],
     },
 ];

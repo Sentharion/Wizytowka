@@ -1,49 +1,52 @@
-import {WWWIcon, WebAppIcon,MobileAppIcon} from "@/components/Icons";
+import SectionTitle from "./SectionTitle";
+import {Globe,Smartphone,AppWindow} from "lucide-react";
 const services = [
-        {
-            title: "Strony internetowe",
-            description: "Projektuję i tworzę nowoczesne strony internetowe, które są szybkie, responsywne i zoptymalizowane pod kątem SEO oraz doświadczenia użytkownika.",
-            icon: <WWWIcon fill="#8B5CF6" w="35px" h="35px" stroke="#8B5CF6" />, 
-        },
-        {
-            title: "Aplikacje webowe",
-            description: "Buduję skalowalne aplikacje webowe z naciskiem na wydajność, bezpieczeństwo oraz intuicyjny interfejs dopasowany do potrzeb użytkowników.",
-            icon: <WebAppIcon fill="#8B5CF6" w="35px" h="35px"/>, 
-        },
-        {
-            title: "Aplikacje mobilne",
-            description: "Tworzę nowoczesne aplikacje mobilne na systemy iOS i Android, zapewniając płynne działanie, dopracowany UX oraz spójność wizualną z marką.",
-            icon: <MobileAppIcon fill="#8B5CF6" w="35px" h="35px"/>, 
-        },
-    ];
+    {
+        title: "Strony internetowe",
+        description: "Projektuję i tworzę nowoczesne strony internetowe, które są szybkie, responsywne i zoptymalizowane pod kątem SEO oraz doświadczenia użytkownika.",
+        icon: <Globe className="size-8" />,
+        accent: "bg-gradient-to-r from-violet-700 to-violet-800",
+        hover: "hover:border-violet-500/40",
+    },
+    {
+        title: "Aplikacje webowe",
+        description: "Buduję skalowalne aplikacje webowe z naciskiem na wydajność, bezpieczeństwo oraz intuicyjny interfejs dopasowany do potrzeb użytkowników.",
+        icon: <AppWindow className="size-8" />,
+        accent: "bg-gradient-to-r from-blue-700 to-blue-800",
+        hover: "hover:border-blue-500/40",
+    },
+    {
+        title: "Aplikacje mobilne",
+        description: "Tworzę nowoczesne aplikacje mobilne na systemy iOS i Android, zapewniając płynne działanie, dopracowany UX oraz spójność wizualną z marką.",
+        icon: <Smartphone className="size-8" />,
+        accent: "bg-gradient-to-r from-emerald-700 to-emerald-800",
+        hover: "hover:border-emerald-500/40",
+    },
+];
 
 const Services = () => {
     return (
-        <section className="w-full relative flex items-center justify-center bg-slate-950 py-20">
-            <div className="relative z-10 flex flex-col justify-center items-center px-6 text-white font-roboto text-center max-w-7xl">
-                <h1 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4 animate-fade-in-up">
-                    Usługi
-                </h1>
-
-                <div className="w-50 h-0.5 bg-linear-to-r from-transparent via-violet-500/50 to-transparent shadow-[0_0_12px_rgba(139,92,246,0.3)] animate-fade-in-up [animation-delay:400ms]"></div>
-
-                <p className="text-slate-300 text-lg md:text-xl mt-6 max-w-3xl font-light leading-relaxed tracking-wide animate-fade-in-up [animation-delay:200ms]">
-                    Skupiam się na <span className="text-white font-medium border-b border-violet-500/30 pb-0.5">wydajności, intuicyjności i dopracowanych detalach</span>, aby każdy projekt realnie wspierał rozwój Twojego biznesu.
+        <section id="services" className="relative mx-auto max-w-6xl px-6 py-24 lg:px-8 lg:py-32">
+            <div className="mb-12 flex flex-col justify-between gap-8 md:mb-16 md:flex-row md:items-end">
+                <SectionTitle eyebrow="Usługi">
+                    Od pomysłu do niezawodnego produktu.
+                </SectionTitle>
+                <p className="max-w-md pb-1 text-sm leading-7 text-slate-400">
+                    Skupiam się na wydajności, intuicyjności i dopracowanych detalach, aby każdy projekt realnie wspierał rozwój Twojego biznesu.
                 </p>
-
-                <div className="flex items-center flex-col md:flex-row justify-center gap-5 mt-14">
-                    {services.map((service) => (
-                        <div key={service.title} className="border border-violet-500/30 rounded-xl p-4 bg-violet-400/5 hover:bg-violet-400/10 transition-all duration-300 hover:border-violet-500/60 hover:scale-105">
-                            <div className="flex items-center justify-center gap-3">
-                                <div className="bg-violet-500/20 border border-violet-500/80 p-2 rounded-xl flex items-center justify-center">
-                                    {service.icon}
-                                </div>
-                                <h2 className="text-2xl font-semibold">{service.title}</h2>
-                            </div>
-                            <p className="text-slate-300 text-md mt-6 max-w-3xl font-light leading-relaxed tracking-wide animate-fade-in-up [animation-delay:200ms]">{service.description}</p>
+            </div>
+            <div className="grid gap-5 lg:grid-cols-3">
+                {services.map((service) => (
+                    <article key={service.title} className={`group relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900/40 p-7 transition-all duration-300 hover:-translate-y-1 ${service.hover} sm:p-8`}>
+                        <div className={`mb-14 flex h-16 w-16 items-center rounded-xl p-4 ${service.accent}`}>
+                            <span className="font-mono text-xs text-white">
+                                {service.icon}
+                            </span>
                         </div>
-                    ))}
-                </div>
+                        <h3 className="text-2xl font-medium tracking-tight text-white">{service.title}</h3>
+                        <p className="mt-4 text-sm leading-7 text-slate-400">{service.description}</p>
+                    </article>
+                ))}
             </div>
         </section>
     );
