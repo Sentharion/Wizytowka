@@ -2,24 +2,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-
-const technologies = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Next.js",
-    "Astro.js",
-    "TypeScript",
-    "Tailwind CSS",
-    "C#",
-    "Python",
-    "Java",
-    "Git",
-    "GitHub",
-    "SQL",
-    "Supabase",
-];
+import { technologies } from "../constants";
 
 const Hero = () => {
     const { t } = useTranslation();
