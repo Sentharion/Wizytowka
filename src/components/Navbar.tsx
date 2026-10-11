@@ -10,11 +10,11 @@ const Navbar = () => {
 
     return (
         <nav className="relative z-50 mx-auto flex max-w-6xl items-center justify-between px-6 py-5 lg:px-8">
-            <Link href="#top" className="group flex items-center gap-3 text-sm font-semibold text-white">
+            <Link href="#top" className="group flex items-center gap-3 sm:text-lg text-md font-semibold text-white">
                 <Image src={Logo} alt="Logo" width={40} height={40} className="rounded-xl" />
                 <span>Michał Bertman</span>
             </Link>
-            <div className="hidden items-center gap-8 text-sm text-slate-400 sm:flex">
+            <div className="hidden items-center gap-8 text-md text-slate-400 sm:flex">
                 <Link href="#services" className="transition-colors hover:text-white">{t("navbar.services")}</Link>
                 <Link href="#work" className="transition-colors hover:text-white">{t("navbar.portfolio")}</Link>
                 <Link href="#about" className="transition-colors hover:text-white">{t("navbar.about")}</Link>

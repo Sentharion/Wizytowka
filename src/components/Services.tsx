@@ -40,7 +40,7 @@ const Services = () => {
             <div className="grid gap-5 lg:grid-cols-3">
                 {services.map((service) => (
                     <article key={service.key} className={`group relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900/40 p-7 transition-all duration-300 hover:-translate-y-1 ${service.hover} sm:p-8`}>
-                        <div className={`mb-14 flex h-16 w-16 items-center rounded-xl p-4 ${service.accent}`}>
+                        <div className={`mb-6 flex h-16 w-16 items-center rounded-xl p-4 ${service.accent}`}>
                             <span className="font-mono text-xs text-white">
                                 {service.icon}
                             </span>
