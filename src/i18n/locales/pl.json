@@ -1,0 +1,87 @@
+{
+  "navbar": {
+    "services": "Usługi",
+    "portfolio": "Portfolio",
+    "about": "O mnie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "available": "Gotowy do działania",
+    "headline1": "Tworzę produkty cyfrowe, które",
+    "headline2": "działają bez zarzutu.",
+    "description": "Tworzę strony internetowe oraz aplikacje mobilne i webowe, które działają płynnie i responsywnie na wszystkich urządzeniach, unosząc Twoją markę w cyfrowy kosmos.",
+    "cta_projects": "Zobacz moje projekty",
+    "cta_about": "Więcej o mnie",
+    "tech_label": "Technologie z którymi pracuję"
+  },
+  "services": {
+    "eyebrow": "Usługi",
+    "headline": "Od pomysłu do niezawodnego produktu.",
+    "description": "Skupiam się na wydajności, intuicyjności i dopracowanych detalach, aby każdy projekt realnie wspierał rozwój Twojego biznesu.",
+    "items": {
+      "web": {
+        "title": "Strony internetowe",
+        "description": "Projektuję i tworzę nowoczesne strony internetowe, które są szybkie, responsywne i zoptymalizowane pod kątem SEO oraz doświadczenia użytkownika."
+      },
+      "webapp": {
+        "title": "Aplikacje webowe",
+        "description": "Buduję skalowalne aplikacje webowe z naciskiem na wydajność, bezpieczeństwo oraz intuicyjny interfejs dopasowany do potrzeb użytkowników."
+      },
+      "mobile": {
+        "title": "Aplikacje mobilne",
+        "description": "Tworzę nowoczesne aplikacje mobilne na systemy iOS i Android, zapewniając płynne działanie, dopracowany UX oraz spójność wizualną z marką."
+      }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "headline": "Przegląd moich projektów",
+    "projects_count": "{{count}} projektów · 2025-teraz",
+    "prev_page": "Poprzednia strona",
+    "next_page": "Następna strona",
+    "projects": {
+      "posto": {
+        "description": "Landing page dla aplikacji mobilnej Posto do śledzenia postu i przerw od jedzenia"
+      },
+      "walker": {
+        "description": "Nowoczesny sposób na planowanie i śledzenie spacerów"
+      },
+      "sixfit": {
+        "description": "Landing page dla aplikacji mobilnej Six Fit do planowania treningów"
+      },
+      "osuszacze": {
+        "description": "Landing page dla firmy Osuszacze Gdańsk"
+      },
+      "projecthub": {
+        "description": "Platforma do zarządzania projektami"
+      },
+      "imprezowo": {
+        "description": "Platforma do zarządzania imprezami"
+      }
+    },
+    "types": {
+      "landing": "Landing Page",
+      "mobile": "Aplikacja Mobilna",
+      "webapp": "Aplikacja Webowa"
+    }
+  },
+  "about": {
+    "eyebrow": "O mnie",
+    "headline": "Programista z pasji. Inżynier z natury.",
+    "intro": "Jestem Michał, full stack developer z półtorarocznym doświadczeniem w tworzeniu aplikacji internetowych i mobilnych.",
+    "p2": "Pracuję nad projektami, które łączą funkcjonalność z estetyką, dbając o każdy szczegół i zapewniając płynne działanie na wszystkich urządzeniach.",
+    "p3": "Poza pracą interesuje mnie sport oraz nowe technologie, a także poznawanie świata i odkrywanie nowych miejsc.",
+    "stats": {
+      "experience": "Lata doświadczenia",
+      "projects": "Zrealizowanych projektów",
+      "clients": "Zadowolonych klientów"
+    }
+  },
+  "contact": {
+    "eyebrow": "Masz jakiś pomysł?",
+    "headline": "Stwórzmy coś razem!",
+    "description": "Jestem otwarty na współpracę przy ciekawych projektach. Chętnie poznam Twoje pomysły i pomogę Ci w ich realizacji.",
+    "cta": "Napisz do mnie",
+    "footer": "© 2025 Michał Bertman. Stworzono z pasją."
+  }
+}

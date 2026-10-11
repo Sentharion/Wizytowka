@@ -1,0 +1,87 @@
+{
+  "navbar": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "available": "Available for work",
+    "headline1": "I build digital products that",
+    "headline2": "work flawlessly.",
+    "description": "I create websites and mobile & web applications that run smoothly and responsively on all devices, lifting your brand into the digital cosmos.",
+    "cta_projects": "See my projects",
+    "cta_about": "More about me",
+    "tech_label": "Technologies I work with"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "headline": "From idea to reliable product.",
+    "description": "I focus on performance, intuitiveness and refined details so that every project genuinely supports the growth of your business.",
+    "items": {
+      "web": {
+        "title": "Websites",
+        "description": "I design and build modern websites that are fast, responsive, and optimized for SEO and user experience."
+      },
+      "webapp": {
+        "title": "Web Applications",
+        "description": "I build scalable web applications with an emphasis on performance, security, and an intuitive interface tailored to users' needs."
+      },
+      "mobile": {
+        "title": "Mobile Applications",
+        "description": "I create modern mobile apps for iOS and Android, ensuring smooth performance, polished UX, and visual consistency with your brand."
+      }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "headline": "Overview of my projects",
+    "projects_count": "{{count}} projects · 2025–now",
+    "prev_page": "Previous page",
+    "next_page": "Next page",
+    "projects": {
+      "posto": {
+        "description": "Landing page for the Posto mobile app for tracking fasting and meal breaks"
+      },
+      "walker": {
+        "description": "A modern way to plan and track walks"
+      },
+      "sixfit": {
+        "description": "Landing page for the Six Fit mobile app for planning workouts"
+      },
+      "osuszacze": {
+        "description": "Landing page for the Osuszacze Gdańsk company"
+      },
+      "projecthub": {
+        "description": "A project management platform"
+      },
+      "imprezowo": {
+        "description": "A party management platform"
+      }
+    },
+    "types": {
+      "landing": "Landing Page",
+      "mobile": "Mobile App",
+      "webapp": "Web Application"
+    }
+  },
+  "about": {
+    "eyebrow": "About me",
+    "headline": "Developer by passion. Engineer by nature.",
+    "intro": "I'm Michał, a full stack developer with one and a half years of experience building web and mobile applications.",
+    "p2": "I work on projects that combine functionality with aesthetics, paying attention to every detail and ensuring smooth performance across all devices.",
+    "p3": "Outside of work I enjoy sports, new technologies, and exploring the world to discover new places.",
+    "stats": {
+      "experience": "Years of experience",
+      "projects": "Projects delivered",
+      "clients": "Happy clients"
+    }
+  },
+  "contact": {
+    "eyebrow": "Got an idea?",
+    "headline": "Let's build something together!",
+    "description": "I'm open to collaboration on interesting projects. I'd love to hear your ideas and help bring them to life.",
+    "cta": "Get in touch",
+    "footer": "© 2025 Michał Bertman. Built with passion."
+  }
+}
