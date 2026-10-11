@@ -1,8 +1,9 @@
 "use client";
 import { projects } from "@/constants";
 import Image, { StaticImageData } from "next/image";
-import { ArrowUpRight,ArrowLeft,ArrowRight } from "lucide-react";
+import { ArrowUpRight, ArrowLeft, ArrowRight } from "lucide-react";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 interface Project {
     id: number;
@@ -14,10 +15,10 @@ interface Project {
 
 const handleRedirect = (project: Project) => {
     window.open(project.link, "_blank");
-}
-
+};
 
 const Portfolio = () => {
+    const { t } = useTranslation();
     const [currentPage, setCurrentPage] = useState(1);
     const ITEMS_PER_PAGE = 4;
     const totalPages = Math.ceil(projects.length / ITEMS_PER_PAGE);
@@ -33,15 +34,15 @@ const Portfolio = () => {
           <div className="mb-12 flex flex-col justify-between gap-8 md:mb-16 md:flex-row md:items-end">
             <div>
               <p className="mb-4 font-mono text-xs uppercase tracking-[0.25em] text-violet-400">
-                Portfolio
+                {t("portfolio.eyebrow")}
               </p>
               <h2 className="max-w-2xl text-3xl font-medium tracking-tight text-white sm:text-5xl">
-                Przegląd moich projektów
+                {t("portfolio.headline")}
               </h2>
             </div>
             <div className="flex items-center gap-3 text-sm text-slate-500">
               <span className="size-2 rounded-full bg-violet-400" />
-              {projects.length} projektów · 2025-teraz
+              {t("portfolio.projects_count", { count: projects.length })}
             </div>
           </div>
           <div className="grid gap-6 lg:grid-cols-2 content-start">
@@ -77,11 +78,11 @@ const Portfolio = () => {
                   </div>
                 </div>
               </article>
-            ))} 
+            ))}
           </div>
           <div className="mt-10 mx-auto flex w-fit items-center justify-center gap-3 rounded-full border border-slate-800 p-3 text-sm text-slate-400">
 
-            <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1} aria-label="Poprzednia strona" className="transition-colors cursor-pointer hover:text-violet-400 disabled:cursor-not-allowed disabled:opacity-30">
+            <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1} aria-label={t("portfolio.prev_page")} className="transition-colors cursor-pointer hover:text-violet-400 disabled:cursor-not-allowed disabled:opacity-30">
                 <ArrowLeft size={20} />
             </button>
 
@@ -92,7 +93,7 @@ const Portfolio = () => {
                 </button>
             )
             )}
-            <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages} aria-label="Następna strona" className="cursor-pointer transition-colors hover:text-violet-400 disabled:cursor-not-allowed disabled:opacity-30">
+            <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages} aria-label={t("portfolio.next_page")} className="cursor-pointer transition-colors hover:text-violet-400 disabled:cursor-not-allowed disabled:opacity-30">
                 <ArrowRight size={20} />
             </button>
 
