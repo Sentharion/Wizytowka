@@ -5,7 +5,7 @@ interface SectionTitleProps {
 
 const SectionTitle = ({ eyebrow, children }: SectionTitleProps) => {
   return (
-    <div className="mb-12 md:mb-16">
+    <div className="mb-1 md:mb-16">
       <p className="mb-4 font-mono text-xs uppercase tracking-[0.25em] text-violet-400">
         {eyebrow}
       </p>
