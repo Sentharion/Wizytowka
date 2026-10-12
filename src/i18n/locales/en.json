@@ -27,7 +27,7 @@
         "title": "Web Applications",
         "description": "I build scalable web applications with an emphasis on performance, security, and an intuitive interface tailored to users' needs."
       },
-      "mobile": { 
+      "mobile": {
         "title": "Mobile Applications",
         "description": "I create modern mobile apps for iOS and Android, ensuring smooth performance, polished UX, and visual consistency with your brand."
       }
@@ -67,8 +67,8 @@
   },
   "about": {
     "eyebrow": "About me",
-    "headline": "Developer by passion. Engineer by nature.",
-    "intro": "I'm Michał, a full stack developer with one and a half years of experience building web and mobile applications.",
+    "headline": "Software engineering. Precision thinking. Quality solutions.",
+    "intro": "I'm Michał, a full stack developer with experience in building web and mobile applications.",
     "p2": "I work on projects that combine functionality with aesthetics, paying attention to every detail and ensuring smooth performance across all devices.",
     "p3": "Outside of work I enjoy sports, new technologies, and exploring the world to discover new places.",
     "stats": {
@@ -78,38 +78,38 @@
     }
   },
   "contact": {
-    "eyebrow": "Got an idea?",
-    "headline": "Let's build something together!",
-    "description": "I'm open to collaboration on interesting projects. I'd love to hear your ideas and help bring them to life.",
+    "eyebrow": "Need IT Assistance and support?",
+    "headline": "I will help!",
+    "description": "I help turn concepts into functional solutions.",
     "cta": "Get in touch",
     "footer": "© 2026 Michał Bertman. Built with passion."
   },
   "projects": {
-        "winnica": {
-            "name": "Winnica Academic Chaplaincy",
-            "type":"Website",
-            "description": "Project and implementation of a modern, responsive website for the Winnica Academic Chaplaincy in Gdańsk-Wrzeszcz. The website was designed for students and young adults, providing easy access to information about meetings, events, initiatives, and the community's activities."
-        },
-        "moonight": {
-            "type":"PWA App",
-            "description": "A planner for movie nights. Designed for watching movies with friends. You create a group, share a list of movies, and vote together on the movies you want to watch."
-        },
-        "parafia": {
-            "name": "Parish of the Holy Cross in Gdańsk-Wrzeszcz",
-            "type":"Website",
-            "description": "Project and implementation of a website for the Parish of the Holy Cross in Gdańsk-Wrzeszcz. The aim of the project was to create a clear and functional website, making it easier for parishioners to access the most important information, pastoral announcements, Holy Mass schedule, and parish news."
-        },
-        "superquiz": {
-            "type":"Mobile App",
-            "description": "Project and development of a mobile application with a quiz game inspired by the popular TV quiz show 'One for Ten'. The app allows you to test your knowledge in various fields, compete with opponents, and develop quick thinking skills. The gameplay mirrors the key mechanics of the TV show, offering dynamic fun, a scoring system, and player elimination."
-        },
-        "superquizdesktop": {
-            "type":"Desktop App",
-            "description": "Project and development of a desktop quiz application inspired by the popular TV quiz show 'One for Ten'. The game allows you to test your knowledge in various fields, compete with computer-controlled opponents, and improve your quick thinking skills. The application offers various gameplay modes, a scoring system, player elimination mechanics, and progress statistics."
-        },
-        "walker": {
-            "type":"Mobile App",
-            "description": "A mobile application for planning walks, tracking routes, and monitoring activity, supporting the development of healthy habits and an active lifestyle."
-        }
+    "winnica": {
+      "name": "Winnica Academic Chaplaincy",
+      "type": "Website",
+      "description": "Project and implementation of a modern, responsive website for the Winnica Academic Chaplaincy in Gdańsk-Wrzeszcz. The website was designed for students and young adults, providing easy access to information about meetings, events, initiatives, and the community's activities."
+    },
+    "moonight": {
+      "type": "PWA App",
+      "description": "A planner for movie nights. Designed for watching movies with friends. You create a group, share a list of movies, and vote together on the movies you want to watch."
+    },
+    "parafia": {
+      "name": "Parish of the Holy Cross in Gdańsk-Wrzeszcz",
+      "type": "Website",
+      "description": "Project and implementation of a website for the Parish of the Holy Cross in Gdańsk-Wrzeszcz. The aim of the project was to create a clear and functional website, making it easier for parishioners to access the most important information, pastoral announcements, Holy Mass schedule, and parish news."
+    },
+    "superquiz": {
+      "type": "Mobile App",
+      "description": "Project and development of a mobile application with a quiz game inspired by the popular TV quiz show 'One for Ten'. The app allows you to test your knowledge in various fields, compete with opponents, and develop quick thinking skills. The gameplay mirrors the key mechanics of the TV show, offering dynamic fun, a scoring system, and player elimination."
+    },
+    "superquizdesktop": {
+      "type": "Desktop App",
+      "description": "Project and development of a desktop quiz application inspired by the popular TV quiz show 'One for Ten'. The game allows you to test your knowledge in various fields, compete with computer-controlled opponents, and improve your quick thinking skills. The application offers various gameplay modes, a scoring system, player elimination mechanics, and progress statistics."
+    },
+    "walker": {
+      "type": "Mobile App",
+      "description": "A mobile application for planning walks, tracking routes, and monitoring activity, supporting the development of healthy habits and an active lifestyle."
     }
+  }
 }
