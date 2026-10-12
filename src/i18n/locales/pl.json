@@ -9,7 +9,7 @@
         "available": "Gotowy do działania",
         "headline1": "Tworzę produkty cyfrowe, które",
         "headline2": "działają bez zarzutu.",
-        "description": "Tworzę strony internetowe oraz aplikacje mobilne i webowe, które działają płynnie i responsywnie na wszystkich urządzeniach, unosząc Twoją markę w cyfrowy kosmos.",
+        "description": "Buduję strony internetowe oraz aplikacje mobilne i webowe, funkcjonujące płynnie i responsywnie na wszystkich urządzeniach, unosząc Twoją markę w cyfrowy kosmos.",
         "cta_projects": "Zobacz moje projekty",
         "cta_about": "Więcej o mnie",
         "tech_label": "Technologie z którymi pracuję"
@@ -67,10 +67,10 @@
     },
     "about": {
         "eyebrow": "O mnie",
-        "headline": "Programista z pasji. Inżynier z natury.",
-        "intro": "Jestem Michał, full stack developer z półtorarocznym doświadczeniem w tworzeniu aplikacji internetowych i mobilnych.",
-        "p2": "Pracuję nad projektami, które łączą funkcjonalność z estetyką, dbając o każdy szczegół i zapewniając płynne działanie na wszystkich urządzeniach.",
-        "p3": "Poza pracą interesuje mnie sport oraz nowe technologie, a także poznawanie świata i odkrywanie nowych miejsc.",
+        "headline": "Inżynieria oprogramowania. Precyzja myślenia. Jakość rozwiązań.",
+        "intro": "Jestem Michał, full stack developer z doświadczeniem w tworzeniu aplikacji internetowych i mobilnych.",
+        "p2": "Pracuję nad projektami które łączą funkcjonalność z estetyką, dbając o każdy szczegół i zapewniając płynne działanie na wszystkich urządzeniach.",
+        "p3": "Poza pracą interesuje mnie sport, nowe technologie a także odkrywanie nowych miejsc.",
         "stats": {
             "experience": "Lata doświadczenia",
             "projects": "Zrealizowanych projektów",
@@ -78,37 +78,37 @@
         }
     },
     "contact": {
-        "eyebrow": "Masz jakiś pomysł?",
-        "headline": "Stwórzmy coś razem!",
-        "description": "Jestem otwarty na współpracę przy ciekawych projektach. Chętnie poznam Twoje pomysły i pomogę Ci w ich realizacji.",
+        "eyebrow": "Potrzebujesz wsparcia IT?",
+        "headline": "Chętnie pomogę!",
+        "description": "Pomagam przekuwać koncepcje w funkcjonalne rozwiązania.",
         "cta": "Napisz do mnie",
         "footer": "© 2026 Michał Bertman. Stworzono z pasją."
     },
     "projects": {
         "winnica": {
             "name": "Duszpasterstwo Akademickie Winnica",
-            "type":"Strona Internetowa",
+            "type": "Strona Internetowa",
             "description": "Projekt i wdrożenie nowoczesnej, responsywnej strony internetowej dla Duszpasterstwa Akademickiego Winnica w Gdańsku-Wrzeszczu. Strona została zaprojektowana z myślą o studentach i młodych dorosłych, zapewniając łatwy dostęp do informacji o spotkaniach, wydarzeniach, inicjatywach oraz działalności wspólnoty."
         },
         "moonight": {
-            "type":"Aplikacja PWA",
+            "type": "Aplikacja PWA",
             "description": "Planer wieczorów filmowych. Zaprojektowany z myślą o wspólnych seansach filmowych ze znajomymi. Tworzysz grupę, udostępniasz listę filmów i wspólnie oddajesz głosy na filmy, które chcecie obejrzeć."
         },
         "parafia": {
             "name": "Parafia Świętego Krzyża w Gdańsku Wrzeszczu",
-            "type":"Strona Internetowa",
+            "type": "Strona Internetowa",
             "description": "Projekt i wdrożenie strony internetowej dla Parafii Świętego Krzyża w Gdańsku-Wrzeszczu. Celem projektu było stworzenie przejrzystej i funkcjonalnej witryny, ułatwiającej parafianom dostęp do najważniejszych informacji, ogłoszeń duszpasterskich, harmonogramu mszy świętych oraz aktualności z życia parafii."
         },
         "superquiz": {
-            "type":"Aplikacja Mobilna",
+            "type": "Aplikacja Mobilna",
             "description": "Projekt i rozwój aplikacji mobilnej z grą quizową inspirowaną popularnym teleturniejem „Jeden z dziesięciu”. Aplikacja pozwala sprawdzić wiedzę z różnych dziedzin, rywalizować z przeciwnikami i rozwijać umiejętność szybkiego udzielania odpowiedzi. Rozgrywka odwzorowuje kluczowe mechaniki teleturnieju, oferując dynamiczną zabawę, system punktacji oraz eliminację graczy."
         },
         "superquizdesktop": {
-            "type":"Aplikacja Desktopowa",
+            "type": "Aplikacja Desktopowa",
             "description": "Projekt i rozwój desktopowej aplikacji quizowej inspirowanej popularnym teleturniejem „Jeden z dziesięciu”. Gra umożliwia sprawdzanie wiedzy z różnych dziedzin, rywalizację z przeciwnikami sterowanymi przez komputer oraz doskonalenie umiejętności szybkiego udzielania odpowiedzi. Aplikacja oferuje różne tryby rozgrywki, system punktacji, mechanikę eliminacji graczy oraz statystyki postępów."
         },
         "walker": {
-            "type":"Aplikacja Mobilna",
+            "type": "Aplikacja Mobilna",
             "description": "Aplikacja mobilna umożliwiająca planowanie spacerów, śledzenie przebytych tras oraz monitorowanie aktywności, wspierająca rozwijanie zdrowych nawyków i aktywny styl życia"
         }
     }
